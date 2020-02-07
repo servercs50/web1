@@ -1,0 +1,52 @@
+$font-stack: 'Open Sans', sans-serif;
+$bg: "https://avatars.mds.yandex.net/get-pdb/907231/36b7c5b7-da60-4bbf-85f0-3240aedc27f4/s1200?webp=false";
+
+.city {
+  font-family: $font-stack;
+  font-size:37px;
+}
+
+.textbox{
+  height:50px;
+  width:40%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: $font-stack;
+  font-size:30px;
+  padding:10px;
+
+}
+
+.textbox:focus{
+  outline:none;
+  border:rgba(24,149,215,1) 2px solid;
+  color:rgba(24,149,215,1);
+}
+
+/* Базовые стили кнопки */
+.button{
+  height:55px;
+  width:50%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+
+  background:#90c843;
+  color:#FFF;
+  font-family: $font-stack;
+  font-weight:400;
+  font-size: 16pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+
+#content {
+  font-family: $font-stack;
+  width:50%;
+  background-image: url($bg);
+}
+
+.error {
+  width: 100%;
+}

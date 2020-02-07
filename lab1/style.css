@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.city {
+  font-family: "Open Sans", sans-serif;
+  font-size: 37px;
+}
+
+.textbox {
+  height: 50px;
+  width: 40%;
+  border-radius: 3px;
+  border: rgba(0, 0, 0, 0.3) 2px solid;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.textbox:focus {
+  outline: none;
+  border: #1895d7 2px solid;
+  color: #1895d7;
+}
+
+/* Базовые стили кнопки */
+.button {
+  height: 55px;
+  width: 50%;
+  border-radius: 3px;
+  border: rgba(0, 0, 0, 0.3) 0px solid;
+  box-sizing: border-box;
+  background: #90c843;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  transition: background 0.4s;
+  cursor: pointer;
+}
+
+#content {
+  font-family: "Open Sans", sans-serif;
+  width: 50%;
+  background-image: url("https://avatars.mds.yandex.net/get-pdb/907231/36b7c5b7-da60-4bbf-85f0-3240aedc27f4/s1200?webp=false");
+}
+
+.error {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
