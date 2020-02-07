@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading spinner renders correctly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  justify="center"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justify="center"
+  >
+    <WithStyles(ForwardRef(Typography))
+      align="center"
+      component="h3"
+      gutterBottom={true}
+      variant="h5"
+    >
+      Подождите, данные загружаются
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justify="center"
+  >
+    <Loader
+      color="#123abc"
+      css={Object {}}
+      loading={true}
+      size={60}
+      sizeUnit="px"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

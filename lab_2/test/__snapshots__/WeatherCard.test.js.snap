@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather Card calls onFetchError when cod is not equal to 200 1`] = `
+<p>
+  К сожалению, не получилось получить данные о погоде...
+</p>
+`;
+
+exports[`Weather Card renders correctly when  city weather data passed with cod that not equal to 200 1`] = `
+<p>
+  К сожалению, не получилось получить данные о погоде...
+</p>
+`;
+
+exports[`Weather Card renders correctly when NON favorite city weather data passed with cod 200 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="WeatherCard "
+  container={true}
+  direction="row"
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    className="weather-main"
+    container={true}
+    direction="column"
+    item={true}
+    md={6}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justify="space-between"
+      sm={false}
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="h2"
+        variant="h5"
+      >
+        <b>
+          Moscow
+        </b>
+      </WithStyles(ForwardRef(Typography))>
+      <Hidden
+        smUp={true}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="weather-temperature"
+      container={true}
+      item={true}
+      justify="space-evenly"
+      sm={false}
+    >
+      <img
+        alt=""
+        src="http://openweathermap.org/img/wn/04n@2x.png"
+      />
+      <WithStyles(ForwardRef(Typography))
+        component="h2"
+        variant="h1"
+      >
+        10
+        °C
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+    <Hidden
+      only="xs"
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justify="flex-end"
+        sm={1}
+      />
+    </Hidden>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    className="weather-items"
+    item={true}
+    md={6}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Ветер
+        </b>
+      </span>
+      <span>
+        9
+         м/с
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Облачность
+        </b>
+      </span>
+      <span>
+        broken clouds
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Давление
+        </b>
+      </span>
+      <span>
+        995
+         hpa
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Влажность
+        </b>
+      </span>
+      <span>
+        87
+         %
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Координаты
+        </b>
+      </span>
+      <span>
+        [
+        37.62
+        , 
+        55.75
+        ]
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`Weather Card renders correctly when data is loading 1`] = `<LoadingSpinner />`;
+
+exports[`Weather Card renders correctly when favorite city weather data passed with cod 200 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="WeatherCard isFavorite"
+  container={true}
+  direction="column"
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    className="weather-main"
+    container={true}
+    direction="row"
+    item={true}
+    md={12}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justify="space-between"
+      sm={4}
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="h2"
+        variant="h5"
+      >
+        <b>
+          Moscow
+        </b>
+      </WithStyles(ForwardRef(Typography))>
+      <Hidden
+        smUp={true}
+      >
+        <WithStyles(ForwardRef(Fab))
+          color="primary"
+          onClick={[Function]}
+          size="small"
+        >
+          <CloseIcon />
+        </WithStyles(ForwardRef(Fab))>
+      </Hidden>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="weather-temperature"
+      container={true}
+      item={true}
+      justify="space-evenly"
+      sm={7}
+    >
+      <img
+        alt=""
+        src="http://openweathermap.org/img/wn/04n@2x.png"
+      />
+      <WithStyles(ForwardRef(Typography))
+        component="h2"
+        variant="h3"
+      >
+        10
+        °C
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+    <Hidden
+      only="xs"
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justify="flex-end"
+        sm={1}
+      >
+        <WithStyles(ForwardRef(Fab))
+          color="primary"
+          onClick={[Function]}
+          size="small"
+        >
+          <CloseIcon />
+        </WithStyles(ForwardRef(Fab))>
+      </WithStyles(ForwardRef(Grid))>
+    </Hidden>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    className="weather-items"
+    item={true}
+    md={12}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Ветер
+        </b>
+      </span>
+      <span>
+        9
+         м/с
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Облачность
+        </b>
+      </span>
+      <span>
+        broken clouds
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Давление
+        </b>
+      </span>
+      <span>
+        995
+         hpa
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Влажность
+        </b>
+      </span>
+      <span>
+        87
+         %
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+    <WithStyles(ForwardRef(Paper))
+      className="weather-item"
+      elevation={1}
+    >
+      <span>
+        <b>
+          Координаты
+        </b>
+      </span>
+      <span>
+        [
+        37.62
+        , 
+        55.75
+        ]
+      </span>
+    </WithStyles(ForwardRef(Paper))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

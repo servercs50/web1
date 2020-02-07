@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorite Cities Container looks for cities in localstorage 1`] = `
+<WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    component="section"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="h2"
+        variant="h4"
+      >
+        Избранное
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="addCityInput"
+      container={true}
+      item={true}
+      sm={7}
+      xs={12}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <WithStyles(ForwardRef(TextField))
+          label="Добавить новый город"
+          margin="none"
+          name="city"
+          onChange={[Function]}
+          placeholder="Город"
+          value=""
+        />
+        <WithStyles(ForwardRef(Fab))
+          color="primary"
+          size="small"
+          style={
+            Object {
+              "marginLeft": "1rem",
+              "marginTop": "0.5rem",
+            }
+          }
+          type="submit"
+        >
+          <AddIcon />
+        </WithStyles(ForwardRef(Fab))>
+      </form>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    component="section"
+    container={true}
+    spacing={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="0"
+      md={6}
+      xs={12}
+    >
+      <WeatherCard
+        cityWeatherData={
+          Object {
+            "name": "Moscow",
+          }
+        }
+        isFavorite={true}
+        onFetchError={[Function]}
+        onRemoveCityClick={[Function]}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="1"
+      md={6}
+      xs={12}
+    >
+      <WeatherCard
+        cityWeatherData={
+          Object {
+            "name": "London",
+          }
+        }
+        isFavorite={true}
+        onFetchError={[Function]}
+        onRemoveCityClick={[Function]}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
